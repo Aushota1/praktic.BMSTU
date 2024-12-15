@@ -27,10 +27,8 @@ public class Main {
         }
 
         // Выводим отсортированный массив на экран
-        System.out.println("Отсортированный массив:");
-        for (int number : array) {
-            System.out.println(number);
-        }
-        System.out.println("макс. в списке");
+
+        System.out.println("мин. в списке");
+        System.out.println(array[0]);
     }
 }
