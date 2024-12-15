@@ -25,12 +25,10 @@ public class Main {
                 }
             }
         }
+        System.out.println("max");
+        System.out.println(array[arraySize-1]);
 
-        // Выводим отсортированный массив на экран
-        System.out.println("Отсортированный массив:");
-        for (int number : array) {
-            System.out.println(number);
-        }
-        System.out.println("макс. в списке");
+        System.out.println("min");
+        System.out.println(array[0]);
     }
 }
